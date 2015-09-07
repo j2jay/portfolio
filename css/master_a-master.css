@@ -1,0 +1,21 @@
+#u2418
+{
+	border-style: none;
+	border-color: transparent;
+	background-color: transparent;
+	position: relative;
+}
+
+#u2334
+{
+	position: relative;
+	background: transparent url("../images/map-normal.png") no-repeat left top;
+	background-size: contain;
+}
+
+#u2334:hover
+{
+	background: transparent url("../images/map-rollover.png") no-repeat left top;
+	background-size: contain;
+}
+

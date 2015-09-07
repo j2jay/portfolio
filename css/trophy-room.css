@@ -1,0 +1,115 @@
+.version.trophy_room /* version checker */
+{
+	color: #0000FD;
+	background-color: #11DD40;
+}
+
+.html
+{
+	background-color: #FFFFFF;
+}
+
+#page
+{
+	z-index: 1;
+	width: 960px;
+	min-height: 438px;
+	background-image: none;
+	border-style: none;
+	border-color: #000000;
+	background-color: transparent;
+	padding-bottom: 62px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#u1814
+{
+	z-index: 2;
+	width: 960px;
+	background-color: transparent;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 63px;
+}
+
+#u2238
+{
+	z-index: 4;
+	width: 994px;
+	background-color: transparent;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 54px;
+	left: -16px;
+}
+
+#u2420
+{
+	z-index: 6;
+	width: 50px;
+	min-height: 54px;
+	margin-right: -10000px;
+	margin-top: 158px;
+	left: 88px;
+}
+
+#u1820
+{
+	z-index: 7;
+	width: 99px;
+	height: 75px;
+	-webkit-transform: matrix(0,1,-1,0,87,-12);
+	-ms-transform: matrix(0,1,-1,0,87,-12);
+	transform: matrix(0,1,-1,0,87,-12);
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 534px;
+	left: 430px;
+	background: transparent url("../images/button-layer%201.png") no-repeat left top;
+	background-size: contain;
+}
+
+#u1820:hover
+{
+	width: 99px;
+	height: 75px;
+	min-height: 0px;
+	margin: 534px -10000px 0px 0px;
+	background: transparent url("../images/button-layer%201%20copy.png") no-repeat left top;
+	background-size: contain;
+}
+
+#u2352
+{
+	z-index: 8;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 71px;
+	left: 306px;
+}
+
+#u2357-4
+{
+	z-index: 9;
+	display: block;
+	vertical-align: top;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 62px;
+	left: 409px;
+}
+
+body
+{
+	position: relative;
+	min-width: 960px;
+	padding-top: 36px;
+	padding-bottom: 36px;
+}
+
+#page .verticalspacer
+{
+	clear: both;
+}
+

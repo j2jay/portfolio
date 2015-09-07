@@ -1,0 +1,211 @@
+.version.airbnb /* version checker */
+{
+	color: #0000FA;
+	background-color: #D6A859;
+}
+
+.html
+{
+	background-color: #FFFFFF;
+}
+
+#page
+{
+	z-index: 1;
+	width: 960px;
+	min-height: 500px;
+	background-image: none;
+	border-style: none;
+	border-color: #000000;
+	background-color: transparent;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#page_position_content
+{
+	margin-top: -36px;
+	padding-bottom: 62px;
+	width: 0.01px;
+}
+
+#pu1563
+{
+	width: 0.01px;
+	margin-left: 20px;
+}
+
+#u1563
+{
+	z-index: 2;
+	width: 369px;
+	background-color: transparent;
+	position: relative;
+	margin-right: -10000px;
+	left: 715px;
+}
+
+#u1563_img
+{
+	padding-bottom: 2px;
+}
+
+#u2420
+{
+	z-index: 4;
+	width: 50px;
+	min-height: 54px;
+	margin-right: -10000px;
+	margin-top: 194px;
+	left: 68px;
+}
+
+#u949-4
+{
+	z-index: 5;
+	display: block;
+	vertical-align: top;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 30px;
+	left: 205px;
+}
+
+#u950-17
+{
+	z-index: 9;
+	width: 640px;
+	min-height: 82px;
+	background-color: transparent;
+	font-style: normal;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 103px;
+	left: 140px;
+}
+
+#u950-2,#u950-3,#u950-5,#u950-6,#u950-8,#u950-10,#u950-14
+{
+	font-family: Lucida Sans, Lucida Grande, Lucida Sans Unicode, sans-serif;
+}
+
+#u950-12
+{
+	font-style: italic;
+}
+
+#u951
+{
+	z-index: 26;
+	width: 640px;
+	min-height: 364px;
+	border-style: none;
+	border-color: transparent;
+	background-color: transparent;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 316px;
+	left: 140px;
+}
+
+#u973
+{
+	z-index: 33;
+	width: 920px;
+	background-color: transparent;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 709px;
+}
+
+#u973_clip
+{
+	overflow: hidden;
+	width: 920px;
+	height: 885px;
+}
+
+#u973_img
+{
+	margin-bottom: -13px;
+}
+
+#u966-4
+{
+	z-index: 27;
+	width: 640px;
+	min-height: 82px;
+	background-color: transparent;
+	font-style: normal;
+	margin-left: 187px;
+	margin-top: 21px;
+	position: relative;
+}
+
+#u967
+{
+	z-index: 31;
+	width: 920px;
+	background-color: transparent;
+	margin-left: 20px;
+	margin-top: 8px;
+	position: relative;
+}
+
+#u979-4
+{
+	z-index: 35;
+	width: 640px;
+	min-height: 37px;
+	background-color: transparent;
+	font-style: normal;
+	margin-left: 170px;
+	margin-top: 21px;
+	position: relative;
+}
+
+#u980
+{
+	z-index: 43;
+	width: 920px;
+	background-color: transparent;
+	margin-left: 25px;
+	margin-top: 20px;
+	position: relative;
+}
+
+#u987
+{
+	z-index: 45;
+	width: 920px;
+	background-color: transparent;
+	margin-left: 20px;
+	margin-top: 71px;
+	position: relative;
+}
+
+#u986-4
+{
+	z-index: 39;
+	width: 640px;
+	min-height: 37px;
+	background-color: transparent;
+	font-style: normal;
+	margin-left: 160px;
+	margin-top: 27px;
+	position: relative;
+}
+
+body
+{
+	position: relative;
+	min-width: 960px;
+	padding-top: 36px;
+	padding-bottom: 36px;
+}
+
+#page .verticalspacer
+{
+	clear: both;
+}
+
