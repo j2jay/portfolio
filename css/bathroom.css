@@ -1,0 +1,191 @@
+.version.bathroom /* version checker */
+{
+	color: #0000FE;
+	background-color: #0CB09E;
+}
+
+.html
+{
+	background-color: #FFFFFF;
+}
+
+#page
+{
+	z-index: 1;
+	width: 1100px;
+	min-height: 438px;
+	background-image: none;
+	border-style: none;
+	border-color: #000000;
+	background-color: transparent;
+	padding-bottom: 62px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#u149
+{
+	z-index: 2;
+	width: 960px;
+	background-color: transparent;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 70px;
+	left: 18px;
+}
+
+#u2235
+{
+	z-index: 4;
+	width: 994px;
+	background-color: transparent;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 52px;
+	left: 2px;
+}
+
+#u373
+{
+	z-index: 6;
+	width: 620px;
+	height: 362px;
+	background-color: transparent;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 181px;
+}
+
+#U392_animation
+{
+	width: 620px;
+	height: 362px;
+	border: none;
+}
+
+#u386
+{
+	z-index: 7;
+	width: 960px;
+	height: 560px;
+	background-color: transparent;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 61px;
+	left: 246px;
+}
+
+#U388_animation
+{
+	width: 960px;
+	height: 560px;
+	border: none;
+}
+
+#u2402
+{
+	z-index: 9;
+	position: relative;
+	width: 291px;
+	margin-right: -10000px;
+	margin-top: 152px;
+	left: 572px;
+}
+
+#u2402_states
+{
+	height: 461px;
+	width: 291px;
+	vertical-align: top;
+}
+
+#u2402:hover #u2402_states
+{
+	background: url("../images/u2402_states-r.png") no-repeat 0px 0px;
+}
+
+#u1507
+{
+	z-index: 11;
+	width: 99px;
+	height: 75px;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 522px;
+	left: 38px;
+	background: transparent url("../images/buttonl-layer%201.png") no-repeat left top;
+	background-size: contain;
+}
+
+#u1507:hover
+{
+	width: 99px;
+	height: 75px;
+	min-height: 0px;
+	margin: 522px -10000px 0px 0px;
+	background: transparent url("../images/buttonl-layer%201%20copy.png") no-repeat left top;
+	background-size: contain;
+}
+
+#u2401
+{
+	z-index: 13;
+	position: relative;
+	width: 173px;
+	margin-right: -10000px;
+	margin-top: 201px;
+	left: 212px;
+}
+
+#u2401_states
+{
+	height: 393px;
+	width: 173px;
+	vertical-align: top;
+}
+
+#u2401:hover #u2401_states
+{
+	background: url("../images/u2401_states-r.png") no-repeat 0px 0px;
+}
+
+#u2418
+{
+	z-index: 15;
+	width: 50px;
+	min-height: 54px;
+	margin-right: -10000px;
+	margin-top: 195px;
+	left: 52px;
+}
+
+#u2334
+{
+	z-index: 16;
+	width: 84px;
+	height: 67px;
+	margin-right: -10000px;
+	left: 1016px;
+}
+
+#u2334:hover
+{
+	width: 84px;
+	height: 67px;
+	min-height: 0px;
+	margin: 0px -10000px 0px 0px;
+}
+
+body
+{
+	position: relative;
+	min-width: 1100px;
+	padding-top: 36px;
+	padding-bottom: 36px;
+}
+
+#page .verticalspacer
+{
+	clear: both;
+}
+

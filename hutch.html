@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html class="html" lang="en-US">
+ <head>
+
+  <script type="text/javascript">
+   if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["jquery-1.8.3.min.js", "museutils.js", "jquery.watch.js", "hutch.css"], "outOfDate":[]};
+</script>
+  
+  <meta http-equiv="Content-type" content="text/html;charset=UTF-8"/>
+  <meta name="generator" content="2015.0.2.310"/>
+  <title>HUTCH</title>
+  <!-- CSS -->
+  <link rel="stylesheet" type="text/css" href="css/site_global.css?150396275"/>
+  <link rel="stylesheet" type="text/css" href="css/master_b-master.css?394890573"/>
+  <link rel="stylesheet" type="text/css" href="css/hutch.css?382901649" id="pagesheet"/>
+  <!-- Other scripts -->
+  <script type="text/javascript">
+   document.documentElement.className += ' js';
+</script>
+   </head>
+ <body>
+
+  <div class="clearfix" id="page"><!-- group -->
+   <!-- m_editable region-id="editable-static-tag-U857" template="hutch.html" data-type="image" -->
+   <div class="clip_frame grpelem" id="u857" data-muse-uid="U857" data-muse-type="img_frame"><!-- image -->
+    <img class="block" id="u857_img" src="images/outside-crop-u857.jpg" alt="" width="1166" height="1383" data-muse-src="images/outside-crop-u857.jpg"/>
+   </div>
+   <!-- /m_editable -->
+   <div class="grpelem" id="u2420"><!-- custom html -->
+    
+			<style type="text/css">
+			*{
+				margin: 0;
+				padding: 0;
+			}
+			</style>
+			
+			<script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+
+			<script>
+
+
+				var windowHeight,windowWidth,windowRatio,myWidth,myHeight,myRatio,scale,posX,posY;
+				var option = width100;
+
+				function width100(){
+					myWidth = $('body').width();
+					scale = windowWidth/myWidth;
+
+					$('body').css('transform', 'scale('+scale+')');
+					$('body').css('left', '0');
+					$("body").css("overflow", "auto");
+				};
+
+				function fit(){
+
+					$("body").css("overflow", "hidden");
+
+					myWidth = $('body').width();
+					myHeight = $('body').height();
+					myRatio = myWidth/myHeight;
+
+					if (windowRatio <= myRatio){ // window is less wide
+						scale = windowWidth/myWidth;
+						posY = (windowHeight/2)-((myHeight*scale)/2);
+						$('body').css('transform', 'scale('+scale+')');
+						$('body').css('left', '0');
+						$('body').css('top', posY);
+					}else{ //window is wider
+						scale = windowHeight/myHeight;
+						posX = (windowWidth/2)-((myWidth*scale)/2);
+						$('body').css('transform', 'scale('+scale+')');
+						$('body').css('left', posX);
+						$('body').css('top', '0');
+					};
+				};
+
+				function restricted(){
+					myWidth = $('body').width();
+					myHeight = 1080;
+					myRatio = myWidth/myHeight;
+					$("body").css("overflow", "auto");
+					
+					if (windowRatio <= myRatio){ // window is less wide
+						scale = windowWidth/myWidth;
+						//posY = (windowHeight/2)-((myHeight*scale)/2);
+						$('body').css('transform', 'scale('+scale+')');
+						$('body').css('left', '0');
+						$('body').css('top', '0');
+					}else{ //window is wider
+						scale = windowHeight/myHeight;
+						posX = (windowWidth/2)-((myWidth*scale)/2);
+						$('body').css('transform', 'scale('+scale+')');
+						$('body').css('left', posX);
+						$('body').css('top', '0');
+					};
+				};
+
+				function mainFunction(){
+
+					windowHeight = $(window).height();
+					windowWidth = $(window).width();
+					windowRatio = windowWidth/windowHeight;
+					$('body').css('position', 'absolute');
+					$('html').css('max-height', '50%');
+					$('html').css('min-height', '0%');
+
+					if (option==width100){
+						width100();
+					};
+
+					if (option==fit){
+						fit();
+					};
+
+					if (option==restricted){
+						restricted();
+					};
+
+				};
+
+				
+
+				$(document).ready(function() {
+					mainFunction();
+					mainFunction();
+				});
+				
+				$(window).resize(function () {
+					mainFunction();
+				});
+
+			</script>
+		
+</div>
+   <img class="grpelem" id="u692-6" alt="Hutch. Beacons for the Homeless." width="510" height="135" src="images/u692-6.png"/><!-- rasterized frame -->
+   <!-- m_editable region-id="editable-static-tag-U693" template="hutch.html" data-type="html" data-ice-options="disableImageResize,link" -->
+   <div class="clearfix grpelem" id="u693-22" data-muse-uid="U693" data-muse-type="txt_frame"><!-- content -->
+    <p>Homelessness is a problem in every major city. It's an easy problem to ignore especially when we assume that the homeless have addictions or mental illnesses. However, many of those on the street are simply trapped in a spiral brought on by losing a job, or falling ill, and not being able to keep up with <a class="nonblock" href="http://www.nationalhomeless.org/factsheets/why.html">payments</a>.</p>
+    <p>&nbsp;</p>
+    <p>To help them, TaskRabbit and the National Coalition for the Homeless (NCH) created Hutch, a beacon activated app that encourages members of the public to hire the homeless for various jobs, according to their skills.</p>
+    <p>&nbsp;</p>
+    <p id="u693-11">Future Lions Shortlist 2015</p>
+    <p>&nbsp;</p>
+    <p>CW: Javed Jasani</p>
+    <p>AD: Evgenyia Marukhina</p>
+    <p>Tutor: Niklas Frings-Rupp, <span id="u693-18">Miami Ad School</span></p>
+    <p>&nbsp;</p>
+   </div>
+   <!-- /m_editable -->
+   <div class="grpelem" id="u697"><!-- custom html -->
+    <iframe src="https://player.vimeo.com/video/125544594" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+</div>
+   <!-- m_editable region-id="editable-static-tag-U707" template="hutch.html" data-type="html" data-ice-options="disableImageResize,link" -->
+   <div class="clearfix grpelem" id="u707-5" data-muse-uid="U707" data-muse-type="txt_frame"><!-- content -->
+    <p>Finding a house without income is nearly impossible. Finding work without a house is nearly impossible. It's a vicious cycle that's all too easy to fall victim to.</p>
+    <p>&nbsp;</p>
+   </div>
+   <!-- /m_editable -->
+   <!-- m_editable region-id="editable-static-tag-U893" template="hutch.html" data-type="html" data-ice-options="disableImageResize,link" -->
+   <div class="clearfix grpelem" id="u893-4" data-muse-uid="U893" data-muse-type="txt_frame"><!-- content -->
+    <p>Hutch breaks through this cycle. It's an app that works with the beacons that we give to the homeless, the &quot;hutchers&quot;.</p>
+   </div>
+   <!-- /m_editable -->
+   <!-- m_editable region-id="editable-static-tag-U894" template="hutch.html" data-type="html" data-ice-options="disableImageResize,link" -->
+   <div class="clearfix grpelem" id="u894-4" data-muse-uid="U894" data-muse-type="txt_frame"><!-- content -->
+    <p>When someone walks by a &quot;hutcher&quot; they will receive a notification on their phone.</p>
+   </div>
+   <!-- /m_editable -->
+   <!-- m_editable region-id="editable-static-tag-U895" template="hutch.html" data-type="html" data-ice-options="disableImageResize,link" -->
+   <div class="clearfix grpelem" id="u895-4" data-muse-uid="U895" data-muse-type="txt_frame"><!-- content -->
+    <p>The notification will open a brief story about the “hutcher&quot; and their skills. From here the user will be able to hire the homeless person for a task, bookmark them for later,&nbsp; or donate to the NCH.</p>
+   </div>
+   <!-- /m_editable -->
+   <!-- m_editable region-id="editable-static-tag-U896" template="hutch.html" data-type="html" data-ice-options="disableImageResize,link" -->
+   <div class="clearfix grpelem" id="u896-4" data-muse-uid="U896" data-muse-type="txt_frame"><!-- content -->
+    <p>After completing the task the “hutcher” is paid for their work with a part donated to the NCH. This donation will be used to train the unskilled homeless allowing everyone to participate and increase their opportunities.</p>
+   </div>
+   <!-- /m_editable -->
+   <!-- m_editable region-id="editable-static-tag-U860" template="hutch.html" data-type="image" -->
+   <div class="clip_frame grpelem" id="u860" data-muse-uid="U860" data-muse-type="img_frame"><!-- image -->
+    <img class="block" id="u860_img" src="images/pic-1.png" alt="" width="108" height="108" data-muse-src="images/pic-1.png"/>
+   </div>
+   <!-- /m_editable -->
+   <!-- m_editable region-id="editable-static-tag-U869" template="hutch.html" data-type="image" -->
+   <div class="clip_frame grpelem" id="u869" data-muse-uid="U869" data-muse-type="img_frame"><!-- image -->
+    <img class="block" id="u869_img" src="images/pic-2.png" alt="" width="114" height="114" data-muse-src="images/pic-2.png"/>
+   </div>
+   <!-- /m_editable -->
+   <!-- m_editable region-id="editable-static-tag-U874" template="hutch.html" data-type="image" -->
+   <div class="clip_frame grpelem" id="u874" data-muse-uid="U874" data-muse-type="img_frame"><!-- image -->
+    <img class="block" id="u874_img" src="images/pic-3.png" alt="" width="114" height="114" data-muse-src="images/pic-3.png"/>
+   </div>
+   <!-- /m_editable -->
+   <!-- m_editable region-id="editable-static-tag-U879" template="hutch.html" data-type="image" -->
+   <div class="clip_frame grpelem" id="u879" data-muse-uid="U879" data-muse-type="img_frame"><!-- image -->
+    <img class="block" id="u879_img" src="images/pic-4.png" alt="" width="114" height="114" data-muse-src="images/pic-4.png"/>
+   </div>
+   <!-- /m_editable -->
+   <!-- m_editable region-id="editable-static-tag-U884" template="hutch.html" data-type="image" -->
+   <div class="clip_frame grpelem" id="u884" data-muse-uid="U884" data-muse-type="img_frame"><!-- image -->
+    <img class="block" id="u884_img" src="images/pic-5.png" alt="" width="114" height="114" data-muse-src="images/pic-5.png"/>
+   </div>
+   <!-- /m_editable -->
+   <!-- m_editable region-id="editable-static-tag-U897" template="hutch.html" data-type="html" data-ice-options="disableImageResize,link" -->
+   <div class="clearfix grpelem" id="u897-4" data-muse-uid="U897" data-muse-type="txt_frame"><!-- content -->
+    <p>Hutch will provide a safety net and a stepping stone for those who have lost their homes. It will provide them with skills and a way back into society.</p>
+   </div>
+   <!-- /m_editable -->
+   <div class="verticalspacer"></div>
+  </div>
+  <!-- JS includes -->
+  <script type="text/javascript">
+   if (document.location.protocol != 'https:') document.write('\x3Cscript src="http://musecdn.businesscatalyst.com/scripts/4.0/jquery-1.8.3.min.js" type="text/javascript">\x3C/script>');
+</script>
+  <script type="text/javascript">
+   window.jQuery || document.write('\x3Cscript src="scripts/jquery-1.8.3.min.js" type="text/javascript">\x3C/script>');
+</script>
+  <script src="scripts/museutils.js?275725342" type="text/javascript"></script>
+  <script src="scripts/jquery.watch.js?3999102769" type="text/javascript"></script>
+  <!-- Other scripts -->
+  <script type="text/javascript">
+   $(document).ready(function() { try {
+(function(){var a={},b=function(a){if(a.match(/^rgb/))return a=a.replace(/\s+/g,"").match(/([\d\,]+)/gi)[0].split(","),(parseInt(a[0])<<16)+(parseInt(a[1])<<8)+parseInt(a[2]);if(a.match(/^\#/))return parseInt(a.substr(1),16);return 0};(function(){$('link[type="text/css"]').each(function(){var b=($(this).attr("href")||"").match(/\/?css\/([\w\-]+\.css)\?(\d+)/);b&&b[1]&&b[2]&&(a[b[1]]=b[2])})})();(function(){$("body").append('<div class="version" style="display:none; width:1px; height:1px;"></div>');
+for(var c=$(".version"),d=0;d<Muse.assets.required.length;){var f=Muse.assets.required[d],g=f.match(/([\w\-\.]+)\.(\w+)$/),k=g&&g[1]?g[1]:null,g=g&&g[2]?g[2]:null;switch(g.toLowerCase()){case "css":k=k.replace(/\W/gi,"_").replace(/^([^a-z])/gi,"_$1");c.addClass(k);var g=b(c.css("color")),h=b(c.css("background-color"));g!=0||h!=0?(Muse.assets.required.splice(d,1),"undefined"!=typeof a[f]&&(g!=a[f]>>>24||h!=(a[f]&16777215))&&Muse.assets.outOfDate.push(f)):d++;c.removeClass(k);break;case "js":k.match(/^jquery-[\d\.]+/gi)&&
+typeof $!="undefined"?Muse.assets.required.splice(d,1):d++;break;default:throw Error("Unsupported file type: "+g);}}c.remove();if(Muse.assets.outOfDate.length||Muse.assets.required.length)c="Some files on the server may be missing or incorrect. Clear browser cache and try again. If the problem persists please contact website author.",(d=location&&location.search&&location.search.match&&location.search.match(/muse_debug/gi))&&Muse.assets.outOfDate.length&&(c+="\nOut of date: "+Muse.assets.outOfDate.join(",")),d&&Muse.assets.required.length&&(c+="\nMissing: "+Muse.assets.required.join(",")),alert(c)})()})();/* body */
+Muse.Utils.transformMarkupToFixBrowserProblemsPreInit();/* body */
+Muse.Utils.prepHyperlinks(true);/* body */
+Muse.Utils.fullPage('#page');/* 100% height page */
+Muse.Utils.showWidgetsWhenReady();/* body */
+Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
+} catch(e) { if (e && 'function' == typeof e.notify) e.notify(); else Muse.Assert.fail('Error calling selector function:' + e); }});
+</script>
+   </body>
+</html>

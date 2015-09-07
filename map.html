@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html class="html" lang="en-US">
+ <head>
+
+  <script type="text/javascript">
+   if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["jquery-1.8.3.min.js", "museutils.js", "jquery.watch.js", "map.css"], "outOfDate":[]};
+</script>
+  
+  <meta http-equiv="Content-type" content="text/html;charset=UTF-8"/>
+  <meta name="generator" content="2015.0.2.310"/>
+  <title>Map</title>
+  <!-- CSS -->
+  <link rel="stylesheet" type="text/css" href="css/site_global.css?150396275"/>
+  <link rel="stylesheet" type="text/css" href="css/master_b-master.css?394890573"/>
+  <link rel="stylesheet" type="text/css" href="css/map.css?3838219586" id="pagesheet"/>
+  <!-- Other scripts -->
+  <script type="text/javascript">
+   document.documentElement.className += ' js';
+var __adobewebfontsappname__ = "muse";
+</script>
+  <!-- JS includes -->
+  <script type="text/javascript">
+   document.write('\x3Cscript src="' + (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//webfonts.creativecloud.com/gloria-hallelujah:n4:all.js" type="text/javascript">\x3C/script>');
+</script>
+   </head>
+ <body>
+
+  <div class="clearfix" id="page"><!-- group -->
+   <div class="clearfix grpelem" id="pu1931"><!-- group -->
+    <!-- m_editable region-id="editable-static-tag-U1931" template="map.html" data-type="image" -->
+    <div class="clip_frame grpelem" id="u1931" data-muse-uid="U1931" data-muse-type="img_frame" data-mu-ie-matrix="progid:DXImageTransform.Microsoft.Matrix(M11=0,M12=-1,M21=1,M22=0,SizingMethod='auto expand')" data-mu-ie-matrix-dx="-128" data-mu-ie-matrix-dy="128"><!-- image -->
+     <img class="block" id="u1931_img" src="images/treasure.jpg" alt="" width="706" height="961" data-muse-src="images/treasure.jpg"/>
+    </div>
+    <!-- /m_editable -->
+    <!-- m_editable region-id="editable-static-tag-U1955" template="map.html" data-type="html" data-ice-options="disableImageResize,link" -->
+    <div class="clearfix grpelem" id="u1955-4" data-muse-uid="U1955" data-muse-type="txt_frame"><!-- content -->
+     <p>Treasure Map</p>
+    </div>
+    <!-- /m_editable -->
+    <div class="grpelem" id="u2420"><!-- custom html -->
+     
+			<style type="text/css">
+			*{
+				margin: 0;
+				padding: 0;
+			}
+			</style>
+			
+			<script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+
+			<script>
+
+
+				var windowHeight,windowWidth,windowRatio,myWidth,myHeight,myRatio,scale,posX,posY;
+				var option = width100;
+
+				function width100(){
+					myWidth = $('body').width();
+					scale = windowWidth/myWidth;
+
+					$('body').css('transform', 'scale('+scale+')');
+					$('body').css('left', '0');
+					$("body").css("overflow", "auto");
+				};
+
+				function fit(){
+
+					$("body").css("overflow", "hidden");
+
+					myWidth = $('body').width();
+					myHeight = $('body').height();
+					myRatio = myWidth/myHeight;
+
+					if (windowRatio <= myRatio){ // window is less wide
+						scale = windowWidth/myWidth;
+						posY = (windowHeight/2)-((myHeight*scale)/2);
+						$('body').css('transform', 'scale('+scale+')');
+						$('body').css('left', '0');
+						$('body').css('top', posY);
+					}else{ //window is wider
+						scale = windowHeight/myHeight;
+						posX = (windowWidth/2)-((myWidth*scale)/2);
+						$('body').css('transform', 'scale('+scale+')');
+						$('body').css('left', posX);
+						$('body').css('top', '0');
+					};
+				};
+
+				function restricted(){
+					myWidth = $('body').width();
+					myHeight = 1080;
+					myRatio = myWidth/myHeight;
+					$("body").css("overflow", "auto");
+					
+					if (windowRatio <= myRatio){ // window is less wide
+						scale = windowWidth/myWidth;
+						//posY = (windowHeight/2)-((myHeight*scale)/2);
+						$('body').css('transform', 'scale('+scale+')');
+						$('body').css('left', '0');
+						$('body').css('top', '0');
+					}else{ //window is wider
+						scale = windowHeight/myHeight;
+						posX = (windowWidth/2)-((myWidth*scale)/2);
+						$('body').css('transform', 'scale('+scale+')');
+						$('body').css('left', posX);
+						$('body').css('top', '0');
+					};
+				};
+
+				function mainFunction(){
+
+					windowHeight = $(window).height();
+					windowWidth = $(window).width();
+					windowRatio = windowWidth/windowHeight;
+					$('body').css('position', 'absolute');
+					$('html').css('max-height', '50%');
+					$('html').css('min-height', '0%');
+
+					if (option==width100){
+						width100();
+					};
+
+					if (option==fit){
+						fit();
+					};
+
+					if (option==restricted){
+						restricted();
+					};
+
+				};
+
+				
+
+				$(document).ready(function() {
+					mainFunction();
+					mainFunction();
+				});
+				
+				$(window).resize(function () {
+					mainFunction();
+				});
+
+			</script>
+		
+</div>
+    <!-- m_editable region-id="editable-static-tag-U1983" template="map.html" data-type="image" data-ice-options="clickable" data-ice-editable="link" -->
+    <a class="nonblock nontext clip_frame grpelem" id="u1983" href="bathroom.html" data-href="page:U109" data-muse-uid="U1983" data-muse-type="img_frame"><!-- image --><img class="block" id="u1983_img" src="images/bt%20copy-crop-u1983.png" alt="" width="148" height="140" data-muse-src="images/bt%20copy-crop-u1983.png"/></a>
+    <!-- /m_editable -->
+    <a class="nonblock nontext grpelem" id="u1985" href="about-me.html" data-href="page:U1854"><!-- state-based BG images --><img id="u1985_states" alt="?" src="images/blank.gif"/></a>
+    <!-- m_editable region-id="editable-static-tag-U2024" template="map.html" data-type="image" -->
+    <div class="clip_frame grpelem" id="u2024" data-muse-uid="U2024" data-muse-type="img_frame"><!-- image -->
+     <img class="block" id="u2024_img" src="images/bd%20copy-crop-u2024.png" alt="" width="131" height="127" data-muse-src="images/bd%20copy-crop-u2024.png"/>
+    </div>
+    <!-- /m_editable -->
+    <!-- m_editable region-id="editable-static-tag-U2030" template="map.html" data-type="image" data-ice-options="clickable" data-ice-editable="link" -->
+    <a class="nonblock nontext clip_frame grpelem" id="u2030" href="bedroom.html" data-href="page:U103" data-muse-uid="U2030" data-muse-type="img_frame"><!-- image --><img class="block" id="u2030_img" src="images/bd-crop-u2030.png" alt="" width="131" height="127" data-muse-src="images/bd-crop-u2030.png"/></a>
+    <!-- /m_editable -->
+    <!-- m_editable region-id="editable-static-tag-U2036" template="map.html" data-type="image" data-ice-options="clickable" data-ice-editable="link" -->
+    <a class="nonblock nontext clip_frame grpelem" id="u2036" href="bathroom.html" data-href="page:U109" data-muse-uid="U2036" data-muse-type="img_frame"><!-- image --><img class="block" id="u2036_img" src="images/bt-crop-u2036.png" alt="" width="148" height="141" data-muse-src="images/bt-crop-u2036.png"/></a>
+    <!-- /m_editable -->
+    <!-- m_editable region-id="editable-static-tag-U2062" template="map.html" data-type="image" -->
+    <div class="clip_frame grpelem" id="u2062" data-muse-uid="U2062" data-muse-type="img_frame"><!-- image -->
+     <img class="block" id="u2062_img" src="images/tv-room%20copy-crop-u2062.png" alt="" width="125" height="208" data-muse-src="images/tv-room%20copy-crop-u2062.png"/>
+    </div>
+    <!-- /m_editable -->
+    <!-- m_editable region-id="editable-static-tag-U2079" template="map.html" data-type="image" -->
+    <div class="clip_frame grpelem" id="u2079" data-muse-uid="U2079" data-muse-type="img_frame"><!-- image -->
+     <img class="block" id="u2079_img" src="images/throne%20copy-crop-u2079.png" alt="" width="134" height="149" data-muse-src="images/throne%20copy-crop-u2079.png"/>
+    </div>
+    <!-- /m_editable -->
+    <!-- m_editable region-id="editable-static-tag-U2085" template="map.html" data-type="image" data-ice-options="clickable" data-ice-editable="link" -->
+    <a class="nonblock nontext clip_frame grpelem" id="u2085" href="throne-room.html" data-href="page:U79" data-muse-uid="U2085" data-muse-type="img_frame"><!-- image --><img class="block" id="u2085_img" src="images/throne-crop-u2085.png" alt="" width="134" height="149" data-muse-src="images/throne-crop-u2085.png"/></a>
+    <!-- /m_editable -->
+    <!-- m_editable region-id="editable-static-tag-U2091" template="map.html" data-type="image" -->
+    <div class="clip_frame grpelem" id="u2091" data-muse-uid="U2091" data-muse-type="img_frame"><!-- image -->
+     <img class="block" id="u2091_img" src="images/outside%20copy-crop-u2091.png" alt="" width="110" height="138" data-muse-src="images/outside%20copy-crop-u2091.png"/>
+    </div>
+    <!-- /m_editable -->
+    <!-- m_editable region-id="editable-static-tag-U2097" template="map.html" data-type="image" data-ice-options="clickable" data-ice-editable="link" -->
+    <a class="nonblock nontext clip_frame grpelem" id="u2097" href="outside.html" data-href="page:U85" data-muse-uid="U2097" data-muse-type="img_frame"><!-- image --><img class="block" id="u2097_img" src="images/outside-crop-u2097.png" alt="" width="110" height="138" data-muse-src="images/outside-crop-u2097.png"/></a>
+    <!-- /m_editable -->
+    <!-- m_editable region-id="editable-static-tag-U2115" template="map.html" data-type="image" -->
+    <div class="clip_frame grpelem" id="u2115" data-muse-uid="U2115" data-muse-type="img_frame"><!-- image -->
+     <img class="block" id="u2115_img" src="images/mf2%20copy-crop-u2115.png" alt="" width="266" height="103" data-muse-src="images/mf2%20copy-crop-u2115.png"/>
+    </div>
+    <!-- /m_editable -->
+   </div>
+   <div class="verticalspacer"></div>
+   <!-- m_editable region-id="editable-static-tag-U2121" template="map.html" data-type="image" data-ice-options="clickable" data-ice-editable="link" -->
+   <a class="nonblock nontext clip_frame grpelem" id="u2121" href="music-festival.html" data-href="page:U193" data-muse-uid="U2121" data-muse-type="img_frame"><!-- image --><img class="block" id="u2121_img" src="images/mf2-crop-u2121.png" alt="" width="266" height="103" data-muse-src="images/mf2-crop-u2121.png"/></a>
+   <!-- /m_editable -->
+   <!-- m_editable region-id="editable-static-tag-U2068" template="map.html" data-type="image" data-ice-options="clickable" data-ice-editable="link" -->
+   <a class="nonblock nontext clip_frame grpelem" id="u2068" href="living-room.html" data-href="page:U97" data-muse-uid="U2068" data-muse-type="img_frame"><!-- image --><img class="block" id="u2068_img" src="images/tv-room-crop-u2068.png" alt="" width="125" height="206" data-muse-src="images/tv-room-crop-u2068.png"/></a>
+   <!-- /m_editable -->
+  </div>
+  <div class="preload_images">
+   <img class="preload" src="images/u1985_states-r.png" alt=""/>
+  </div>
+  <!-- JS includes -->
+  <script type="text/javascript">
+   if (document.location.protocol != 'https:') document.write('\x3Cscript src="http://musecdn.businesscatalyst.com/scripts/4.0/jquery-1.8.3.min.js" type="text/javascript">\x3C/script>');
+</script>
+  <script type="text/javascript">
+   window.jQuery || document.write('\x3Cscript src="scripts/jquery-1.8.3.min.js" type="text/javascript">\x3C/script>');
+</script>
+  <script src="scripts/museutils.js?275725342" type="text/javascript"></script>
+  <script src="scripts/jquery.watch.js?3999102769" type="text/javascript"></script>
+  <!-- Other scripts -->
+  <script type="text/javascript">
+   $(document).ready(function() { try {
+(function(){var a={},b=function(a){if(a.match(/^rgb/))return a=a.replace(/\s+/g,"").match(/([\d\,]+)/gi)[0].split(","),(parseInt(a[0])<<16)+(parseInt(a[1])<<8)+parseInt(a[2]);if(a.match(/^\#/))return parseInt(a.substr(1),16);return 0};(function(){$('link[type="text/css"]').each(function(){var b=($(this).attr("href")||"").match(/\/?css\/([\w\-]+\.css)\?(\d+)/);b&&b[1]&&b[2]&&(a[b[1]]=b[2])})})();(function(){$("body").append('<div class="version" style="display:none; width:1px; height:1px;"></div>');
+for(var c=$(".version"),d=0;d<Muse.assets.required.length;){var f=Muse.assets.required[d],g=f.match(/([\w\-\.]+)\.(\w+)$/),k=g&&g[1]?g[1]:null,g=g&&g[2]?g[2]:null;switch(g.toLowerCase()){case "css":k=k.replace(/\W/gi,"_").replace(/^([^a-z])/gi,"_$1");c.addClass(k);var g=b(c.css("color")),h=b(c.css("background-color"));g!=0||h!=0?(Muse.assets.required.splice(d,1),"undefined"!=typeof a[f]&&(g!=a[f]>>>24||h!=(a[f]&16777215))&&Muse.assets.outOfDate.push(f)):d++;c.removeClass(k);break;case "js":k.match(/^jquery-[\d\.]+/gi)&&
+typeof $!="undefined"?Muse.assets.required.splice(d,1):d++;break;default:throw Error("Unsupported file type: "+g);}}c.remove();if(Muse.assets.outOfDate.length||Muse.assets.required.length)c="Some files on the server may be missing or incorrect. Clear browser cache and try again. If the problem persists please contact website author.",(d=location&&location.search&&location.search.match&&location.search.match(/muse_debug/gi))&&Muse.assets.outOfDate.length&&(c+="\nOut of date: "+Muse.assets.outOfDate.join(",")),d&&Muse.assets.required.length&&(c+="\nMissing: "+Muse.assets.required.join(",")),alert(c)})()})();/* body */
+Muse.Utils.transformMarkupToFixBrowserProblemsPreInit();/* body */
+Muse.Utils.prepHyperlinks(true);/* body */
+Muse.Utils.fullPage('#page');/* 100% height page */
+Muse.Utils.showWidgetsWhenReady();/* body */
+Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
+} catch(e) { if (e && 'function' == typeof e.notify) e.notify(); else Muse.Assert.fail('Error calling selector function:' + e); }});
+</script>
+   </body>
+</html>

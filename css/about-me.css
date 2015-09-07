@@ -1,0 +1,173 @@
+.version.about_me /* version checker */
+{
+	color: #00001A;
+	background-color: #8EF17D;
+}
+
+.html
+{
+	background-color: #FFFFFF;
+}
+
+#page
+{
+	z-index: 1;
+	width: 960px;
+	min-height: 512px;
+	background-image: none;
+	border-style: none;
+	border-color: #000000;
+	background-color: transparent;
+	padding-bottom: 62px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#u1884
+{
+	z-index: 2;
+	width: 960px;
+	background-color: transparent;
+	opacity: 0.07;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=7.000000000000001)";
+	filter: alpha(opacity=7.000000000000001);
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 62px;
+}
+
+#u2244
+{
+	z-index: 4;
+	width: 994px;
+	background-color: transparent;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 54px;
+	left: -16px;
+}
+
+#u2420
+{
+	z-index: 6;
+	width: 50px;
+	min-height: 54px;
+	margin-right: -10000px;
+	margin-top: 158px;
+	left: 88px;
+}
+
+#u1869-4
+{
+	z-index: 7;
+	display: block;
+	vertical-align: top;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 70px;
+	left: 225px;
+}
+
+#u1887-4
+{
+	z-index: 11;
+	position: relative;
+	width: 140px;
+	margin-right: -10000px;
+	margin-top: 580px;
+	left: 20px;
+}
+
+#u1888-4
+{
+	z-index: 15;
+	position: relative;
+	width: 119px;
+	margin-right: -10000px;
+	margin-top: 579px;
+	left: 822px;
+}
+
+#u1887-4_img,#u1888-4_img
+{
+	display: block;
+	vertical-align: top;
+}
+
+#u1870-26
+{
+	z-index: 19;
+	width: 633px;
+	min-height: 82px;
+	background-color: transparent;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 207px;
+	left: 164px;
+}
+
+#u1870-8
+{
+	font-weight: bold;
+	font-style: italic;
+}
+
+#u1870-2,#u1870-3,#u1870-5,#u1870-6,#u1870-10,#u1870-11,#u1870-13,#u1870-14,#u1870-19,#u1870-20,#u1870-22,#u1870-23
+{
+	text-align: left;
+	font-family: Lucida Sans, Lucida Grande, Lucida Sans Unicode, sans-serif;
+}
+
+#u1889
+{
+	z-index: 45;
+	width: 83px;
+	height: 63px;
+	-webkit-transform: matrix(0,1,-1,0,73,-10);
+	-ms-transform: matrix(0,1,-1,0,73,-10);
+	transform: matrix(0,1,-1,0,73,-10);
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 543px;
+	left: 450px;
+	background: transparent url("../images/button-layer%201.png") no-repeat left top;
+	background-size: contain;
+}
+
+#u1889:hover
+{
+	width: 83px;
+	height: 63px;
+	min-height: 0px;
+	margin: 543px -10000px 0px 0px;
+	background: transparent url("../images/button-layer%201%20copy.png") no-repeat left top;
+	background-size: contain;
+}
+
+#u1898
+{
+	z-index: 46;
+	width: 254px;
+	min-height: 58px;
+	border-style: none;
+	border-color: transparent;
+	background-color: transparent;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 141px;
+	left: 326px;
+}
+
+body
+{
+	position: relative;
+	min-width: 960px;
+	padding-top: 36px;
+	padding-bottom: 36px;
+}
+
+#page .verticalspacer
+{
+	clear: both;
+}
+

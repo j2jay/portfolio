@@ -1,0 +1,103 @@
+.version.ikea /* version checker */
+{
+	color: #000019;
+	background-color: #FA4971;
+}
+
+.html
+{
+	background-color: #FFFFFF;
+}
+
+#page
+{
+	z-index: 1;
+	width: 960px;
+	min-height: 438px;
+	background-image: none;
+	border-style: none;
+	border-color: #000000;
+	background-color: transparent;
+	padding-bottom: 62px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#u1545
+{
+	z-index: 2;
+	width: 356px;
+	background-color: transparent;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: -203px;
+	left: 762px;
+}
+
+#u2420
+{
+	z-index: 4;
+	width: 50px;
+	min-height: 54px;
+	margin-right: -10000px;
+	margin-top: 158px;
+	left: 88px;
+}
+
+#u920-4
+{
+	z-index: 5;
+	display: block;
+	vertical-align: top;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: -6px;
+	left: 225px;
+}
+
+#u921-20
+{
+	z-index: 9;
+	width: 640px;
+	min-height: 82px;
+	background-color: transparent;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 67px;
+	left: 160px;
+}
+
+#u921-3,#u921-5,#u921-6,#u921-8,#u921-9,#u921-11,#u921-13,#u921-18
+{
+	font-style: normal;
+}
+
+#u921-2,#u921-15,#u921-17
+{
+	font-style: italic;
+}
+
+#u930
+{
+	z-index: 29;
+	width: 1160px;
+	background-color: transparent;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 283px;
+	left: -100px;
+}
+
+body
+{
+	position: relative;
+	min-width: 960px;
+	padding-top: 36px;
+	padding-bottom: 36px;
+}
+
+#page .verticalspacer
+{
+	clear: both;
+}
+
