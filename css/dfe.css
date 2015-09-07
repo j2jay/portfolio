@@ -1,0 +1,128 @@
+.version.dfe /* version checker */
+{
+	color: #0000E0;
+	background-color: #F7917B;
+}
+
+.html
+{
+	background-color: #FFFFFF;
+}
+
+#page
+{
+	z-index: 1;
+	width: 960px;
+	min-height: 499.7500000000002px;
+	background-image: none;
+	border-style: none;
+	border-color: #000000;
+	background-color: transparent;
+	padding-bottom: 0px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#page_position_content
+{
+	margin-top: -36px;
+	padding-bottom: 62px;
+	width: 0.01px;
+}
+
+#pu1551
+{
+	width: 0.01px;
+	margin-left: -135px;
+}
+
+#u1551
+{
+	z-index: 2;
+	width: 232px;
+	background-color: transparent;
+	position: relative;
+	margin-right: -10000px;
+}
+
+#u2420
+{
+	z-index: 4;
+	width: 50px;
+	min-height: 54px;
+	margin-right: -10000px;
+	margin-top: 194px;
+	left: 223px;
+}
+
+#u936-4
+{
+	z-index: 5;
+	display: block;
+	vertical-align: top;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 31px;
+	left: 360px;
+}
+
+#u937-22
+{
+	z-index: 9;
+	width: 640px;
+	min-height: 82px;
+	background-color: transparent;
+	font-style: normal;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 103px;
+	left: 295px;
+}
+
+#u937-2,#u937-3,#u937-5,#u937-6,#u937-8,#u937-9,#u937-11,#u937-12,#u937-14,#u937-16,#u937-19
+{
+	font-family: Lucida Sans, Lucida Grande, Lucida Sans Unicode, sans-serif;
+}
+
+#u937-18
+{
+	font-style: italic;
+}
+
+#u938
+{
+	z-index: 31;
+	width: 1160px;
+	background-color: transparent;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 375px;
+	left: 35px;
+}
+
+#u944
+{
+	z-index: 33;
+	width: 640px;
+	min-height: 364px;
+	border-style: none;
+	border-color: transparent;
+	background-color: transparent;
+	margin-left: 160px;
+	margin-top: 25px;
+	position: relative;
+}
+
+body
+{
+	position: relative;
+	min-width: 960px;
+	padding-top: 36px;
+	padding-bottom: 36px;
+}
+
+#page .verticalspacer
+{
+	clear: both;
+}
+

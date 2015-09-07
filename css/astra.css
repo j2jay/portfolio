@@ -1,0 +1,45 @@
+.version.astra /* version checker */
+{
+	color: #0000F5;
+	background-color: #848D84;
+}
+
+.html
+{
+	background-color: #FFFFFF;
+}
+
+#page
+{
+	z-index: 1;
+	width: 50px;
+	min-height: 54px;
+	background-image: none;
+	border-style: none;
+	border-color: #000000;
+	background-color: transparent;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 158px 822px 288px 88px;
+}
+
+#u2420
+{
+	z-index: 2;
+	width: 50px;
+	min-height: 54px;
+}
+
+body
+{
+	position: relative;
+	min-width: 960px;
+	padding-top: 36px;
+	padding-bottom: 36px;
+}
+
+#page .verticalspacer
+{
+	clear: both;
+}
+

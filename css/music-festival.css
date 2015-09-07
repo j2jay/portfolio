@@ -1,0 +1,236 @@
+.version.music_festival /* version checker */
+{
+	color: #0000ED;
+	background-color: #4D185E;
+}
+
+.html
+{
+	background-color: #FFFFFF;
+}
+
+#page
+{
+	z-index: 1;
+	width: 1100px;
+	min-height: 526px;
+	background-image: none;
+	border-style: none;
+	border-color: #000000;
+	background-color: transparent;
+	padding-bottom: 62px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#pu447
+{
+	width: 0.01px;
+	margin-right: -10000px;
+	margin-top: -7px;
+}
+
+#u447
+{
+	z-index: 2;
+	width: 960px;
+	background-color: transparent;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 69px;
+	left: 16px;
+}
+
+#u458
+{
+	z-index: 4;
+	width: 907px;
+	background-color: transparent;
+	position: relative;
+	margin-right: -10000px;
+	left: 43px;
+}
+
+#u458_clip
+{
+	overflow: hidden;
+	width: 907px;
+	height: 594px;
+}
+
+#u458_img
+{
+	margin: 94px 6px -2px -48px;
+}
+
+#u2223
+{
+	z-index: 6;
+	width: 994px;
+	background-color: transparent;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 57px;
+}
+
+#u423
+{
+	z-index: 8;
+	width: 360px;
+	height: 210px;
+	background-color: transparent;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 139px;
+	left: 213px;
+}
+
+#u436
+{
+	z-index: 9;
+	width: 360px;
+	height: 210px;
+	background-color: transparent;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 357px;
+	left: 616px;
+}
+
+#U433_animation,#U438_animation
+{
+	width: 360px;
+	height: 210px;
+	border: none;
+}
+
+#u1504
+{
+	z-index: 10;
+	width: 99px;
+	height: 75px;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 75px;
+	left: 36px;
+	background: transparent url("../images/buttonl-layer%201.png") no-repeat left top;
+	background-size: contain;
+}
+
+#u1504:hover
+{
+	width: 99px;
+	height: 75px;
+	min-height: 0px;
+	margin: 75px -10000px 0px 0px;
+	background: transparent url("../images/buttonl-layer%201%20copy.png") no-repeat left top;
+	background-size: contain;
+}
+
+#u1509
+{
+	z-index: 11;
+	width: 99px;
+	height: 75px;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 75px;
+	left: 857px;
+	background: transparent url("../images/button-layer%201.png") no-repeat left top;
+	background-size: contain;
+}
+
+#u1509:hover
+{
+	width: 99px;
+	height: 75px;
+	min-height: 0px;
+	margin: 75px -10000px 0px 0px;
+	background: transparent url("../images/button-layer%201%20copy.png") no-repeat left top;
+	background-size: contain;
+}
+
+#u2392
+{
+	z-index: 13;
+	position: relative;
+	width: 185px;
+	margin-right: -10000px;
+	margin-top: 354px;
+	left: 697px;
+}
+
+#u2392_states
+{
+	height: 255px;
+	width: 185px;
+	vertical-align: top;
+}
+
+#u2392:hover #u2392_states
+{
+	background: url("../images/u2392_states-r.png") no-repeat 0px 0px;
+}
+
+#u2393
+{
+	z-index: 16;
+	position: relative;
+	width: 164px;
+	margin-right: -10000px;
+	margin-top: 149px;
+	left: 321px;
+}
+
+#u2393_states
+{
+	height: 197px;
+	width: 164px;
+	vertical-align: top;
+}
+
+#u2393:hover #u2393_states
+{
+	background: url("../images/u2393_states-r.png") no-repeat 0px 0px;
+}
+
+#u2418
+{
+	z-index: 18;
+	width: 50px;
+	min-height: 54px;
+	margin-right: -10000px;
+	margin-top: 202px;
+	left: 52px;
+}
+
+#u2334
+{
+	z-index: 19;
+	width: 84px;
+	height: 67px;
+	margin-right: -10000px;
+	left: 1016px;
+}
+
+#u2334:hover
+{
+	width: 84px;
+	height: 67px;
+	min-height: 0px;
+	margin: 0px -10000px 0px 0px;
+}
+
+body
+{
+	position: relative;
+	min-width: 1100px;
+	padding-top: 36px;
+	padding-bottom: 36px;
+}
+
+#page .verticalspacer
+{
+	clear: both;
+}
+

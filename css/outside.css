@@ -1,0 +1,208 @@
+.version.outside /* version checker */
+{
+	color: #000018;
+	background-color: #2E14F1;
+}
+
+.html
+{
+	background-color: #FFFFFF;
+}
+
+#page
+{
+	z-index: 1;
+	width: 1100px;
+	min-height: 438px;
+	background-image: none;
+	border-style: none;
+	border-color: #000000;
+	background-color: transparent;
+	padding-bottom: 62px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#u2220
+{
+	z-index: 2;
+	width: 993px;
+	background-color: transparent;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 51px;
+	left: 21px;
+}
+
+#u122
+{
+	z-index: 4;
+	width: 960px;
+	background-color: transparent;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 73px;
+	left: 37px;
+}
+
+#u400
+{
+	z-index: 6;
+	width: 640px;
+	height: 373px;
+	background-color: transparent;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 251px;
+	left: -48px;
+}
+
+#u418
+{
+	z-index: 7;
+	width: 640px;
+	height: 373px;
+	background-color: transparent;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 73px;
+	left: 508px;
+}
+
+#U410_animation,#U420_animation
+{
+	width: 640px;
+	height: 373px;
+	border: none;
+}
+
+#u1503
+{
+	z-index: 8;
+	width: 99px;
+	height: 75px;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 68px;
+	left: 57px;
+	background: transparent url("../images/buttonl-layer%201.png") no-repeat left top;
+	background-size: contain;
+}
+
+#u1503:hover
+{
+	width: 99px;
+	height: 75px;
+	min-height: 0px;
+	margin: 68px -10000px 0px 0px;
+	background: transparent url("../images/buttonl-layer%201%20copy.png") no-repeat left top;
+	background-size: contain;
+}
+
+#u1508
+{
+	z-index: 9;
+	width: 99px;
+	height: 75px;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 68px;
+	left: 878px;
+	background: transparent url("../images/button-layer%201.png") no-repeat left top;
+	background-size: contain;
+}
+
+#u1508:hover
+{
+	width: 99px;
+	height: 75px;
+	min-height: 0px;
+	margin: 68px -10000px 0px 0px;
+	background: transparent url("../images/button-layer%201%20copy.png") no-repeat left top;
+	background-size: contain;
+}
+
+#u2389
+{
+	z-index: 11;
+	position: relative;
+	width: 259px;
+	margin-right: -10000px;
+	margin-top: 284px;
+	left: 105px;
+}
+
+#u2389_states
+{
+	height: 340px;
+	width: 259px;
+	vertical-align: top;
+}
+
+#u2389:hover #u2389_states
+{
+	background: url("../images/u2389_states-r.png") no-repeat 0px 0px;
+}
+
+#u2391
+{
+	z-index: 14;
+	position: relative;
+	width: 190px;
+	margin-right: -10000px;
+	margin-top: 148px;
+	left: 738px;
+}
+
+#u2391_states
+{
+	height: 308px;
+	width: 190px;
+	vertical-align: top;
+}
+
+#u2391:hover #u2391_states
+{
+	background: url("../images/u2391_states-r.png") no-repeat 0px 0px;
+}
+
+#u2418
+{
+	z-index: 16;
+	width: 50px;
+	min-height: 54px;
+	margin-right: -10000px;
+	margin-top: 195px;
+	left: 52px;
+}
+
+#u2334
+{
+	z-index: 17;
+	width: 84px;
+	height: 67px;
+	margin-right: -10000px;
+	left: 1016px;
+}
+
+#u2334:hover
+{
+	width: 84px;
+	height: 67px;
+	min-height: 0px;
+	margin: 0px -10000px 0px 0px;
+}
+
+body
+{
+	position: relative;
+	min-width: 1100px;
+	padding-top: 36px;
+	padding-bottom: 36px;
+}
+
+#page .verticalspacer
+{
+	clear: both;
+}
+
